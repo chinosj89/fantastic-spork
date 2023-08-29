@@ -15,7 +15,7 @@ app.use('/api', api);
 
 app.use(express.static('public'));
 
-// GET rouge for landing page 
+// GET route for landing page 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/index.html'), {
     status: 200,
@@ -25,7 +25,11 @@ app.get('/', (req, res) => {
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/notes.html'));
 });
-
+//wildcard
+app.get('*',(req,res) => {
+  res.sendFile(path.join(__dirname,'/public/index.html'))
+});
+// Listening port
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
