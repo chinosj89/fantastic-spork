@@ -6,6 +6,9 @@
  
   ## Description
   This challenge was for us to create an application called Note Taker that we can use to write and save notes using Express.js
+
+  ## Deployment
+  Deployment was done in Heroku: 
   <!-- Add a screenshot of your application here -->
   ## Table of Contents
   - [Installation](#installation)
