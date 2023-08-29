@@ -8,5 +8,20 @@
         "title": "Do homework",
         "text": "study some more",
         "id": "ae0be594-09d3-4976-9b33-81680f907842"
+    },
+    {
+        "title": "Wash Car",
+        "text": "car wash, dirty dirty car",
+        "id": "8e493828-9409-42ea-a9aa-c8ab9dc7f742"
+    },
+    {
+        "title": "Call services",
+        "text": "send email",
+        "id": "5d523927-00b3-4762-bc90-6f109eab2e42"
+    },
+    {
+        "title": "Delete this note",
+        "text": "delete me!",
+        "id": "55663d71-ce3b-400a-857e-dc0c2d35d971"
     }
 ]
