@@ -14,5 +14,8 @@
   },
   "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "",
+  "buildpacks": [
+    "heroku/nodejs"
+  ]
 }
