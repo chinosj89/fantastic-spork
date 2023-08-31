@@ -3,10 +3,10 @@ const path = require('path');
 const { clog } = require('./middleware/clog');
 const api = require('./routes/index');
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
-// Import custom middleware, "cLog"
+// Import custom middleware, "clog"
 app.use(clog);
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
