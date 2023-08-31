@@ -47,7 +47,7 @@ THEN I am presented with empty fields to enter a new note title and the note√¢‚Ç
   This project uses the [MIT License](https://opensource.org/licenses/MIT) license
   
   ## How to Contribute
-  Email me!
+  Email me!!
   
   ## Tests
   No unit testing done, but multiple tests run to make sure notes are added, can be viewed, and deleted
